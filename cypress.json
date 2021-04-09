@@ -1,0 +1,19 @@
+{
+    "projectId": "67ggu4",
+    "baseUrl": "",
+    "reporter": "mochawesome",
+    "defaultCommandTimeout": 10000,
+    "integrationFolder": "cypress/integration",
+    "reporterOptions": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+    "env": {
+        "RETRIES": 3,
+        "accounts": {
+            "invalid": "you must specify a config to use, generic config was resolved"
+        }
+    }
+}

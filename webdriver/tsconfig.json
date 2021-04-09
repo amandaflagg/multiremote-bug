@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "../node_modules",
+        "strict": true,
+        "sourceMap": true,
+        "module": "commonjs",
+        "types": [
+            "node",
+            "webdriverio/sync",
+            "@wdio/mocha-framework",
+            "@wdio/selenium-standalone-service"
+        ],
+        "target": "es5",
+        "lib": ["dom", "es6"],
+        "jsx": "react",
+        "experimentalDecorators": true
+    },
+    "include": ["**/*.*"],
+    "compileOnSave": false
+}
